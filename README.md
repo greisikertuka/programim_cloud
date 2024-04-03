@@ -65,12 +65,16 @@ http://localhost:8080/api/books
 
 ![Delete All Books](img/deleteAll.png "Delete All Books")
 
-
-
-
-
 /////////////
 
 kubectl config current-context -- To view your current context
 kubectl config get-contexts -- To list all your contexts
 kubectl config use-context my-context -- To switch to a different context:
+
+
+
+
+Authors also added:
+http://localhost:8080/api/books
+
+![img.png](img.png)
