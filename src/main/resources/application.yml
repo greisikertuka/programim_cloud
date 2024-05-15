@@ -1,5 +1,13 @@
 # Spring Boot configuration
 spring:
+  #security with oauth
+  security:
+    oauth2:
+      client:
+        registration:
+          github:
+            clientId: Ov23lilXtztzgHWuyj6Y
+            clientSecret: be259efaedbd819f60d15396d946624499d070c1
   # Database
   datasource:
     driver-class-name: org.postgresql.Driver

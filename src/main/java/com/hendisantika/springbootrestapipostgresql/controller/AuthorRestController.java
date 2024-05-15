@@ -32,6 +32,11 @@ public class AuthorRestController {
         return new ResponseEntity<>(repository.save(author), HttpStatus.CREATED);
     }
 
+    @GetMapping("/protected")
+    public ResponseEntity<Collection<Author>> getAllAuthorsProtected() {
+        return new ResponseEntity<>(repository.findAll(), HttpStatus.OK);
+    }
+
     @GetMapping
     public ResponseEntity<Collection<Author>> getAllAuthors() {
         return new ResponseEntity<>(repository.findAll(), HttpStatus.OK);
