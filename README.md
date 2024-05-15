@@ -78,3 +78,6 @@ Authors also added:
 http://localhost:8080/api/books
 
 ![img.png](img.png)
+
+The test coverage:
+![img_1.png](img_1.png)
